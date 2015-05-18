@@ -53,8 +53,8 @@
                 if ((strtolower($_POST['prestolnica']) == strtolower($drzave[$_POST['randomId']]['prestolnica']))):
                     echo "<p class='odg'>Obvladaš, odgovor je pravilen!</p>";
                 else:
-                    echo "<p class='napacen odg'>Uf, odgovor je napačen!</p>";
-                    echo "<p class='namig odg'> Glavno mesto države <strong>" . ($drzave[$_POST['randomId']]['drzava']) . "</strong> je <strong>" . ($drzave[$_POST['randomId']]['prestolnica'])
+                    echo "<p class='odg'>Uf, odgovor je napačen!</p>";
+                    echo "<p class='odg namig'> Glavno mesto države <strong>" . ($drzave[$_POST['randomId']]['drzava']) . "</strong> je <strong>" . ($drzave[$_POST['randomId']]['prestolnica'])
                         . "</strong>.</p>";
                 endif;
             else:
